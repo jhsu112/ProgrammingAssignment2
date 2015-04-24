@@ -1,6 +1,7 @@
 ## Jonathan Hsu - R Programming Assignment 2
 ## This programming assignment consists of 2 functions to cache the inverse of a matrix.
 
+## Function 1
 ## This function makeCacheMatrix creates a special "matrix" object that can cache its inverse.
 
 makeCacheMatrix <- function(x = matrix()) {
@@ -25,7 +26,7 @@ makeCacheMatrix <- function(x = matrix()) {
              get_inv = get_inv)
 }
 
-
+## Function 2
 ## This function cacheSolve computes the inverse of the special "matrix" returned by makeCacheMatrix.
 ## If the inverse has already been calculated, then the cachesolve should retrieve the inverse from the cache.
 
